@@ -3,7 +3,7 @@
 
 ## Projects
 
-- [jamiephan.github.io](https://github.com/jamiephan/jamiephan.github.io): My [personal website](https://www.jamiephan.net), with some nice parallax effects in the universe!
+- [jamiephan.github.io](https://github.com/jamiephan/jamiephan.github.io): My [personal website](https://www.jamiephan.net), with some nice parallax effects in the universe 🌍 and a *hidden* easter egg 👀.
 - [batch-scripts](https://github.com/jamiephan/batch-scripts): Some random batch scripts that I made, I use them quite often for various of stuff (*why the fxxk Windows uses forward slash in paths, oh my fu...\*ahem\*, please excuse me.*)
 
 
