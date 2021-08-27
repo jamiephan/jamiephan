@@ -1,6 +1,13 @@
 # Hello! 🥳
 
-Most of my working projects are in private, so nothing to be listed here 😔.
+
+## Projects
+
+- [jamiephan.github.io](https://github.com/jamiephan/jamiephan.github.io): My [personal website](https://www.jamiephan.net), with some nice parallax effects in the universe!
+- [batch-scripts](https://github.com/jamiephan/batch-scripts): Some random batch scripts that I made, I use them quite often for various of stuff (*why the fxxk Windows uses forward slash in paths, oh my fu...\*ahem\*, please excuse me.*)
+
+
+Most of my working projects are in private, so not much are listed 😔.
 
 However you can check out my [blog](https://blog.jamiephan.net) instead!
 
