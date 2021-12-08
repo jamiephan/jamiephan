@@ -4,6 +4,7 @@
 ## Projects
 
 - [jamiephan.github.io](https://github.com/jamiephan/jamiephan.github.io): My [personal website](https://www.jamiephan.net), with some nice parallax effects in the universe 🌍 and a *hidden* easter egg 👀.
+- [JSONBin](https://github.com/jamiephan/JSONBin): A Pastebin-like service speifically designed for JSON. Can be also exported to different formats such as XML, YAML. It features a API based service with an online editor.
 - [batch-scripts](https://github.com/jamiephan/batch-scripts): Some random batch scripts that I made, I use them quite often for various of stuff (*why the fxxk Windows uses forward slash in paths, oh my fu...\*ahem\*, please excuse me.*)
 
 
