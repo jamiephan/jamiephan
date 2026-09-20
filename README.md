@@ -4,9 +4,8 @@
 ## Projects
 
 - [jamiephan.github.io](https://github.com/jamiephan/jamiephan.github.io): My [personal website](https://www.jamiephan.net), with some nice parallax effects in the universe 🌍 and a *hidden* easter egg 👀.
-- [JSONBin](https://github.com/jamiephan/JSONBin): A Pastebin-like service speifically designed for JSON. Can be also exported to different formats such as XML, YAML. It features a API based service with an online editor.
-- [batch-scripts](https://github.com/jamiephan/batch-scripts): Some random batch scripts that I made, I use them quite often for various of stuff (*why the fxxk Windows uses forward slash in paths, oh my fu...\*ahem\*, please excuse me.*)
-
+- [simple-multicast-share](https://github.com/jamiephan/simple-multicast-share): A simple single binary and sqlite db to share and edit files. Intended to share files and texts across different devices locally. Support multicast DNS.
+- [cf-bnet-version](https://github.com/jamiephan/cf-bnet-version): A simple HonoJS API server to fetch the latest app versions from Battle.net, using Cloudflare worker, and convert to JSON for easier data fetching.
 
 Most of my working projects are in private, so not much are listed 😔.
 
@@ -24,14 +23,16 @@ Here are some projects related to Heroes of the Storm:
 
 ### Active:
 
+- [casclib-stormlib-monorepo](https://github.com/jamiephan/casclib-stormlib-monorepo): A Monorepo for Casclib and Stormlib cross platform native binding for nodejs (NAPI). Published as npm package of [@jamiephan/casclib](https://www.npmjs.com/package/@jamiephan/casclib) and [@jamiephan/stormlib](https://www.npmjs.com/package/@jamiephan/stormlib)
 - [Storm Map Generator](https://stormmap.jamiephan.net/) ([source code](https://github.com/jamiephan/HeroesOfTheStorm_StormMapGenerator)): An online `stormmap` file generator (`stormmap` is the map file format for Heroes of the Storm), that supports multiple configurations such as template map, adding AI, welcome message, enabling debug mode and adding customized XML game data files. You can also use the Web UI to edit and validate the XML files without an editor installed on your computer. Enables for a completely tool-less `stormmap` file generation.
 - [Try Mode 2.0](https://github.com/jamiephan/HeroesOfTheStorm_TryMode2.0): A drop-in replacement for the in game Try Mode (or Test Mode), with extra features such as *Enabling Debug mode*, *Spawn any units*, *Update any game values*, etc, and tools making modding the map much easier. It will also generate multiple maps (including AI variants) with the custom modding data.
 - [Try Mode 2.0 Installer](https://github.com/jamiephan/HeroesOfTheStorm_TryMode2.0Installer): An Installer App for *Try Mode 2.0*, allowing to reduce the complexity when installing the custom maps, it also allows to fetch the latest map from the Releases.
 - [Game Data](https://github.com/jamiephan/HeroesOfTheStorm_Gamedata): A repo to store all the non-binary game data from Heroes of the Storm (excluding Assets). The game data will be fetched automatically and generate a `xsd` file, that can be used for custom modding validation and editor auto-completion.
 - [S2MA](https://github.com/jamiephan/HeroesOfTheStorm_S2MA): Automatically fetch Heroes of the Storm (via GitHub Action) data and extract the mods and map files. Act as a storage for those files, which are used by *Try Mode 2.0*, for building custom maps and *AI Maps*, for injecting AI players into the maps.
 - [AI Maps](https://github.com/jamiephan/HeroesOfTheStorm_AIMaps): Automatically fetch the maps from the *S2MA* repo and inject the AI (non-modify maps will not have any AI players). It will generate all sort of "AI compositions", such as `1v5`, `3v3`, etc. The `5v5` variant was also used by *Try Mode 2.0* to generate a custom map.
+- [HeroesOfTheStorm_Gamedata_HTTP](https://github.com/jamiephan/HeroesOfTheStorm_Gamedata_HTTP): A Cloudflare worker app to get data from https://github.com/jamiephan/HeroesOfTheStorm_Gamedata and transform to various formats with Badge endpoint support!
 - [Tools](https://github.com/jamiephan/HeroesOfTheStorm_Tools): Various tools that I used to aid my modding for Heroes of the Storm.
-- [casclib-stormlib-monorepo](https://github.com/jamiephan/casclib-stormlib-monorepo): A Monorepo for Casclib and Stormlib cross platform native binding for nodejs (NAPI). Published as npm package of [@jamiephan/casclib](https://www.npmjs.com/package/@jamiephan/casclib) and [@jamiephan/stormlib](https://www.npmjs.com/package/@jamiephan/stormlib)
+
 
 ### Archived:
 - [storm-extract-docker](https://github.com/jamiephan/storm-extract-docker): A docker-ised [`storm-extract`](https://github.com/nydus/storm-extract) command line tool, allows you to run the tools platform independent provided [`docker`](https://www.docker.com/) was installed. The built image is also using `SCRATCH`, so the image size can be as small as `1.52MB`.
